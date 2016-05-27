@@ -1,0 +1,13 @@
+This is my first React Portfolio attempt
+
+Requirements:
+-- node
+-- webpack -g
+
+Run Commands
+  -- webpack -w
+  -- node server.js
+
+Additional Dependencies || This allows the use of ES6 features
+--  npm install --save-dev babel-preset-stage-0
+-- npm install --save react-router@2.0.0
