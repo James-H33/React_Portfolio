@@ -9,6 +9,12 @@ var Home = require('Home');
 var Projects = require('Projects');
 var About = require('About');
 
+// App Css
+require('style!css!sass!ApplicationStyles');
+
+// Target Document ID
+const APP = document.getElementById('app');
+
 // ReactDOM.render(
 //   <div>
 //     <h1> Hello Portfolio</h1>
@@ -25,5 +31,5 @@ ReactDOM.render(
       <Route path="about" component={About} />
     </Route>
   </Router>,
-  document.getElementById('app')
+  APP,
 );

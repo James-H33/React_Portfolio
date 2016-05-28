@@ -1,0 +1,66 @@
+//************************************
+//          Home Styles
+//************************************
+
+.home-wrapper
+  width: 100%
+  height: 100vh
+  background:
+    image: url('https://images.unsplash.com/photo-1457144759132-40d119c2f120?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1920&h=1280&q=80')
+    size: cover
+    position: center
+
+
+.home-display
+  width: 100%
+  height: 100%
+  text-align: left
+  position: relative
+
+.home-text
+  width: 280px
+  height: auto
+  position: absolute
+  bottom: 50px
+  left: 20px
+  letter-spacing: 1px
+
+  p
+    color: #f8f8f8
+    font-size: 25px
+    font-weight: normal
+
+  span
+    color: #eb4246
+
+  ul
+    width: 100%
+    height: 100%
+    margin: 10px 0
+
+    li
+      display: inline-block
+
+      a
+        color: #f8f8f8
+        text-decoration: none
+        font-family: 'Open Sans Condensed', sans-serif
+        font-size: 15px
+        letter-spacing: 2px
+        padding: 5px
+
+        &:hover
+          color: #eb4246
+
+@media(min-width: 769px)
+
+  .home-text
+    width: 450px
+    height: auto
+    position: absolute
+    bottom: 100px
+    left: 30px
+    letter-spacing: 1px
+
+    p
+      font-size: 30px

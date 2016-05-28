@@ -1,0 +1,109 @@
+//************************************
+//       Navigation Styles
+//************************************
+
+.nav-wrapper
+  width: 250px
+  height: 100vh
+  position: fixed
+  background: #f8f8f8
+  left: -250px
+  z-index: 100
+  transition: all 0.5s ease
+
+/*#29272C
+
+@media (min-width: 769px)
+  .nav-wrapper
+    width: 250px
+    height: 100vh
+    position: fixed
+    background: #f8f8f8
+    left: 0
+    transition: all 0.5s ease
+
+.nav-icon-open
+  width: 30px
+  height: 30px
+  display: initial
+  position: absolute
+  top: 20px
+  right: -40px
+  cursor: pointer
+  span
+    width: 22px
+    height: 2px
+    background: #f8f8f8
+    position: absolute
+    &:nth-of-type(1)
+      top: 2px
+    &:nth-of-type(2)
+      top: 8px
+    &:nth-of-type(3)
+      top: 14px
+
+@media (min-width: 769px)
+  .nav-icon-open
+    width: 30px
+    height: 30px
+    display: none
+    position: absolute
+    top: 20px
+    right: -40px
+    cursor: pointer
+
+.nav-icon-close
+  width: 30px
+  height: 30px
+  display: initial
+  position: absolute
+  top: 20px
+  left: 20px
+  cursor: pointer
+  span
+    width: 22px
+    height: 2px
+    background: #29272C
+    position: absolute
+    &:nth-of-type(1)
+      top: 12px
+      transform: rotate(135deg)
+    &:nth-of-type(2)
+      top: 12px
+      transform: rotate(45deg)
+
+@media (min-width: 769px)
+  .nav-icon-close
+    width: 30px
+    height: 30px
+    display: none
+    position: absolute
+    top: 20px
+    left: 20px
+    cursor: pointer
+
+.nav-display
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  ul
+    list-style: none
+    padding-left: 20px
+  li
+    line-height: 30px
+    margin: 10px 0
+    a
+      color: #eb4246
+      font-size: 20px
+      text-decoration: none
+
+/***********************************
+/*    Active Navigation Styles
+/***********************************
+
+.active-menu
+  left: 0
+
+.active-open
+  display: none

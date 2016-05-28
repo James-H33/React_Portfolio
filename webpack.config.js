@@ -12,6 +12,10 @@ module.exports = {
       Home: 'app/components/home/Home.jsx',
       Projects: 'app/components/projects/Projects.jsx',
       About: 'app/components/about/About.jsx',
+      ApplicationStyles: 'app/styles/app.sass',
+      NavStyles: 'app/components/nav/nav.sass',
+      HomeStyles: 'app/components/home/home.sass',
+      ProjectStyles: 'app/components/projects/projects.sass',
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -26,5 +30,6 @@ module.exports = {
         exclude: /(node_modules|bower_components)/
       }
     ]
-  }
+  },
+  devtool: 'cheap-module-eval-source-map',
 }

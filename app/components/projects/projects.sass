@@ -1,0 +1,81 @@
+//************************************
+//         Project Styles
+//************************************
+
+.project-intro-wrapper
+  width: 100%
+  height: 100vh
+  background: #fff
+
+.project-intro-display
+  width: 100%
+  height: 100%
+  overflow-y: hidden
+
+  ul
+    width: 2000px
+    height: 100%
+
+    li
+      width: 280px
+      height: 100%
+      perspective: 1000px
+      display: inline-block
+
+      &:hover
+        .project-panel
+          transform: rotateY(180deg)
+
+.project-panel
+  color: #f8f8f8
+  width: 280px
+  height: 100%
+  text-align: center
+  position: relative
+  transition: 0.5s
+  transform-style: preserve-3d
+
+  figure
+    width: 280px
+    height: 100%
+    position: absolute
+    backface-visibility: hidden
+    transition: all 0.5s linear
+
+    &:nth-of-type(1)
+      background:
+        size: cover
+        position: 50% 50%
+      z-index: 2
+      transform: rotateY(0deg)
+
+    &:nth-of-type(2)
+      background: #252328
+      transform: rotateY(180deg)
+
+  span
+    width: 100%
+    height: 100px
+    display: block
+    position: absolute
+    top: 40%
+
+    p
+      font-size: 25px
+      margin: 10px 0
+
+  hr
+    width: 50px
+    margin: 0 auto
+
+.project-1
+  background:
+    image: url('https://images.unsplash.com/photo-1462774603919-1d8087e62cad?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1920&h=1280&q=80')
+
+.project-2
+  background:
+    image: url('https://images.unsplash.com/photo-1461088778056-88bf6d3cefcd?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1920&h=1366&q=80')
+
+.project-3
+  background:
+    image: url('https://images.unsplash.com/photo-1452473767141-7c6086eacf42?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1920&h=1280&q=80')
