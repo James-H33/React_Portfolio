@@ -36,6 +36,9 @@ var Nav = React.createClass({
             <span></span>
             <span></span>
         </div>
+        <div className="nav-logo">
+          <img src={require('app/components/nav/react-profile-logo.png')} />
+        </div>
         <div className="nav-display">
           <ul>
             <li>

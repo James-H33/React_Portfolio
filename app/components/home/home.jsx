@@ -11,7 +11,7 @@ var Home = React.createClass({
           <div className="home-text">
             <p> <span>H</span>ello. </p>
             <p> <span>I</span>m <span>J</span>ames. </p>
-            <p> <span>F</span>ull <span>S</span>tack <span>D</span>eveloper from <span>U</span>nited <span>S</span>tates. </p>
+            <p> <span>F</span>ull <span>S</span>tack <span>D</span>eveloper from the <span>U</span>nited <span>S</span>tates. </p>
             <ul>
               <li><a href="https://github.com/James-H33"> GITHUB </a></li>
               <li><a href="https://facebook.github.io/react/"> REACT </a></li>

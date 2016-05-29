@@ -16,6 +16,7 @@ module.exports = {
       NavStyles: 'app/components/nav/nav.sass',
       HomeStyles: 'app/components/home/home.sass',
       ProjectStyles: 'app/components/projects/projects.sass',
+      AboutStyles: 'app/components/about/about.sass',
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -28,7 +29,12 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
-      }
+      },
+      {
+      test: /\.png$/,
+      loader: "url-loader",
+      query: { mimetype: "image/png" }
+      } 
     ]
   },
   devtool: 'cheap-module-eval-source-map',
